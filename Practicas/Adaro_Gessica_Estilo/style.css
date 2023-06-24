@@ -1,0 +1,22 @@
+h1{
+    color: white;
+    background-color: black;
+    font-family:Tahoma;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family:'Italic', cursive;
+
+}
+h3{
+    background-color: rgb(19, 168, 237);
+    color: black;
+    text-align:right;
+    font-family:'Italic', cursive;
+    text-decoration: underline;
+}
+#resaltado{
+    color: aqua;
+}

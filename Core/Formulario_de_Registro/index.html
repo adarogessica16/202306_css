@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro..</h1>
+    <div>
+        <label>Nombre:* </label>
+        <input type="text" name="nombre" required>
+    </div>
+    <div>
+        <label>Apellido:*</label>
+        <input type="text" name="apellido" required>
+    </div>
+    <div>
+        <label>Correo Electrónico:* </label>
+        <input type="text" name="correo" required>
+    </div>
+    <div>
+        <label>Contraseña:*</label>
+        <input type="password" name="contraseña" required>
+    </div>
+    <div>
+        <label>Confirmar contraseña* </label>
+        <input type="password" name="confirm_contraseña" required>
+    </div>
+    <div>
+        <label>Fecha de nacimiento: </label>
+        <input type="date" name="fecha">
+    </div>
+    <div>
+        <label>Identidad de Género: </label><br>
+        <input type="radio" name="género" value="masculino" id="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="género" value="femenino" id="femenino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="género" value="No Binario" id="noBinary">
+        <label for="noBinary">No Binario</label>
+        <input type="radio" name="género" value="No responder" id="noResponder">
+        <label for="noResponder">Prefiero no responder</label>
+    </div>
+    <div>
+        <label>Una breve descripción sobre ti: </label><br>
+        <textarea name="comment" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <label>Lenguaje de Programación favorito: </label>
+        <select name="lenguaje">
+            <option>JavaScript</option>
+            <option>Java</option>
+            <option>Python</option>
+            <option>Lenguaje C</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="accept" id="acepto">
+        <label for="acepto">Si, estoy de acuerdo con recibir actualizaciones por correo electrónico</label>
+    </div>
+    <input type="submit" value="Crear una cuenta">
+    <p>* Indica que son campos obligatorios</p>
+</body>
+
+</html>
