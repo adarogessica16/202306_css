@@ -1,0 +1,28 @@
+.botones button{
+    display: block;
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+#buscar{
+    border-radius:10px;
+    color:rgb(34, 220, 158);  
+    border: 1px solid rgb(34, 220, 158);
+
+}
+#mas{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(34, 220, 158);
+    background-color: rgb(34, 220, 158);
+}
+#crear{
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 5px 4px black;
+
+}
