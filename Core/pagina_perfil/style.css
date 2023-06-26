@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.contenedor {
+    width: 800px;
+    height: 600px;
+    margin:0px auto;
+    border: 8px solid rgb(88, 207, 228);
+}
+
+/* Estilos para la barra */
+.barra {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    margin-left: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn {
+    background-color: rgb(110, 182, 233);
+    color: rgb(251, 251, 251);
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+/* Parte de tarjeta de Usuario */
+.pagina {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    border: 8px solid rgb(239, 236, 236);
+}
+
+#parte-azul {
+    background-color: rgb(110, 182, 233);
+    height: 80px;
+    width: 400px;
+}
+
+#parte-blanca {
+    background-color: white;
+    width: 400px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#parte-blanca h2 {
+    margin-left: 30px;
+}
+
+#icono1 {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 100px;
+    left: 440px;
+}
+
+#icono2 {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 25px;
+}
+
+#icono3 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 8px;
+}
+
+/* Parte de Connection */
+#connection {
+    width: 250px;
+    height: 180px;
+    position: relative;
+    top:-100px;
+}
+
+.encabezado {
+    width: 250px;
+    font-size: 10px;
+    background-color: rgb(50, 49, 49);
+    color: azure;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.contenido {
+    margin-top: 20px;
+    background-color: rgb(253, 251, 251);
+    font-size: 8px;
+}
+
+.contenido img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+/* Education */
+#education {
+    width: 250px;
+    height: 120px;
+}
+/*Your Connections*/
+#connections {
+    width: 250px;
+    height: 300px;
+    margin-top:-270px;
+    margin-left: 450px;
+}
+
+#yourConnections {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.contenido > div {
+    display: flex;
+    align-items: center;
+}
+
+#view {
+    border-top: 8px solid rgb(239, 236, 236);
+    padding-top: 2px;
+}
+
+
